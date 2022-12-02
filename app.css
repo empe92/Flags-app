@@ -1,0 +1,44 @@
+#top {
+    background-color: white;
+    padding: 3vh;
+}
+
+body {
+    background-color: pink;
+    margin: 0;
+}
+
+img {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+#filter {
+    text-align: center;
+    padding: 3vh;
+    font-size: 20px;
+}
+
+.country {
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    box-shadow: -5px 5px 5px grey;
+    margin: 40px;
+    line-height: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+.population, .region, .capital, .title {
+    font-weight: bold;
+    padding-left: 3vh;  
+}

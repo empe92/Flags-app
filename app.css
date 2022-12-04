@@ -1,11 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    }
+
 #top {
     background-color: white;
     padding: 3vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 body {
     background-color: pink;
     margin: 0;
+    
 }
 
 img {
